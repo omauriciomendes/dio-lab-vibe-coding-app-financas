@@ -1,15 +1,17 @@
-# 💸 App de Organização de Finanças Pessoais para pessoas de todas as idades com leitura de extratos e comprovantes com Vibe Coding
+💸 App de Organização de Finanças Pessoais
+Para pessoas de todas as idades, com leitura de extratos e comprovantes usando Vibe Coding
 
-Aprenda a **criar soluções com IA** de forma criativa, guiando ferramentas como o **Copilot** e o **Lovable** com uma comunicação simples e natural. O foco é desenvolver o conceito de um **App de Organização de Finanças Pessoais**, mas, acima de tudo, aprender o **jeito Vibe de programar com IA**.
+Aprenda a criar soluções com IA de forma criativa, guiando ferramentas como Copilot e Lovable com comunicação simples e natural.
+O foco é construir um App de Organização de Finanças Pessoais e, ao mesmo tempo, aprender o jeito Vibe de programar com IA.
 
-## ✨ O que é Vibe Coding
+✨ O que é Vibe Coding
 
-**Vibe Coding** é uma forma leve e criativa de desenvolver com IA, baseada em **conversas naturais e bem estruturadas**. Você não precisa escrever código linha por linha. Em vez disso, aprende a **guiar a IA** descrevendo suas ideias de forma clara, com **intenção e contexto**. Em outras palavras:
+Vibe Coding é desenvolver software por meio de conversas naturais, sem precisar escrever código linha a linha.
+Você guia a IA com clareza, intenção e contexto — e ela transforma sua ideia em solução.
 
-> Você mostra a vibe da sua ideia e a IA transforma em solução (ou em um caminho para ela).
+Você mostra a vibe, a IA mostra o caminho.
 
-## 
-```txt
+📘 PRD Completo (Prompt Final)
 # PRD – App de Finanças por Conversa com Design Universal
 
 ## 1. Visão Geral
@@ -17,34 +19,27 @@ Aplicativo de organização financeira que funciona por conversa e leitura de im
 O usuário registra gastos conversando ou enviando fotos de notas, comprovantes e extratos.  
 O app deve ser simples, acessível e utilizável por pessoas de todas as idades e níveis de familiaridade com tecnologia.
 
-Princípio central: **Design Universal**.  
-Se alguém que “não entende de celular” consegue usar, o app está bem projetado.
+Princípio central: Design Universal: se alguém que “não entende de celular” consegue usar, está bem projetado.
 
 ---
 
 ## 2. Problema
-Apps financeiros atuais exigem muito esforço:
-- Campos demais para preencher
+Apps atuais exigem esforço demais:
+- Campos excessivos
 - Telas poluídas
-- Termos técnicos
+- Jargão técnico
 - Falta de acessibilidade
-- Pouco suporte para fotos/PDFs
-
-Isso causa abandono rápido.  
-O objetivo é remover atrito e simplificar o controle financeiro para qualquer pessoa.
+- Pouco suporte a fotos/PDFs
+Isso gera abandono.
 
 ---
 
 ## 3. Público-Alvo
-Usuários de todas as idades e perfis:
-- Iniciantes em finanças
-- Idosos
-- Pessoas com baixa escolaridade
-- Usuários com pouca experiência tecnológica
-- Pessoas que preferem conversar, não preencher formulários
-- Quem guarda fotos/prints de comprovantes
-
-Design Universal: simples, flexível e acolhedor.
+Usuários de todas as idades:
+- Iniciantes, idosos, baixa escolaridade
+- Pouca experiência tecnológica
+- Quem prefere conversar a preencher formulários
+- Quem usa fotos/prints de comprovantes
 
 ---
 
@@ -52,245 +47,150 @@ Design Universal: simples, flexível e acolhedor.
 “Controle suas finanças conversando ou enviando uma foto.”
 
 Benefícios:
-- Registro rápido via chat
-- Leitura automática de notas, comprovantes e PDFs
-- Relatórios simples
-- Metas acessíveis
-- Dicas personalizadas
-- Interface limpa e acessível
+- Registro rápido via chat  
+- Leitura automática de notas  
+- Relatórios simples  
+- Metas acessíveis  
+- Dicas personalizadas  
+- Interface universal e acessível  
 
 ---
 
 ## 5. Princípios de Design Universal
-
-### 5.1 Clareza
-- Frases simples
-- Textos curtos
-- Sem jargão técnico
-- Exemplos constantes
-
-### 5.2 Flexibilidade
-- Suporte a texto, fotos, documentos
-- (Futuro) entrada por voz
-
-### 5.3 Perceptibilidade
-- Fonte mínima 16px
-- Alto contraste
-- Ícones universais
-- Botões grandes
-
-### 5.4 Baixa Carga Cognitiva
-- Telas minimalistas
-- Chat como interface principal
-- Relatórios simples e diretos
-
-### 5.5 Tolerância a Erros
-- IA pergunta quando não entender
-- Usuário sempre pode editar valores
-- Processos guiados
-
-### 5.6 Consistência
-- Padrões visuais e de linguagem fixos
-- Mesmas cores, botões e ícones
+### Clareza
+Linguagem simples, textos curtos, exemplos.
+### Flexibilidade
+Texto, fotos, documentos (voz futuramente).
+### Perceptibilidade
+Fonte 16px+, alto contraste, botões grandes.
+### Baixa Carga Cognitiva
+Telas minimalistas, chat como interface.
+### Tolerância a Erros
+IA pergunta; usuário pode editar.
+### Consistência
+Padrão visual uniforme.
 
 ---
 
 ## 6. Funcionalidades-Chave
 
 ### 6.1 Registro via Conversa
-O usuário digita frases como:
-- “Gastei 35 no iFood”
-- “Paguei 200 de energia ontem”
-- “Recebi 1500 do freela”
+Ex.: “Gastei 35 no iFood”, “Recebi 1500”.
 
-App interpreta:
-- Valor
-- Categoria
-- Data
-- Tipo (gasto/receita)
-
-E confirma:
-“Identifiquei um gasto de R$ 35 em Alimentação. Confirmar?”
-
----
-
-### 6.2 Leitura de Fotos, Notas, Comprovantes e PDFs
-Usuário pode enviar:
-- Foto de recibo
-- Nota fiscal
-- Comprovante de PIX
-- Print de extrato
-- PDF da fatura
-
-App extrai:
-- Valor
-- Data
-- Estabelecimento
-- Categoria
-- Lista de várias transações (se houver)
-
-Exemplos:
-- “Encontrei um gasto de R$ 42,90 no Mercado Preço Bom. Confirmar?”
-- “Encontrei 7 transações neste extrato. Adicionar todas?”
-
-Se a foto estiver ruim:
-“Não consegui ler o valor. Pode tentar outra foto ou digitar apenas o valor?”
-
----
+### 6.2 Leitura de Fotos, Notas e PDFs
+Extrai valor, data, estabelecimento e categoria.
 
 ### 6.3 Classificação Automática
-O sistema sugere categorias e aprende com correções.
-
----
+Aprende com correções.
 
 ### 6.4 Metas Simples
-Exemplos:
-- “Quero guardar 300 este mês.”
-- “Limitar delivery a 200.”
-
-App acompanha e avisa com clareza:
-“Você já usou 60% da sua meta de delivery.”
-
----
+Ex.: guardar 300/mês, limitar delivery.
 
 ### 6.5 Dicas Inteligentes
-Baseadas no comportamento real:
-- “Seu gasto com transporte subiu 20% esta semana.”
-- “Você economizou R$ 90 na última semana. Bom trabalho!”
-
-Tom sempre amigável, nunca julgador.
-
----
+Apoio amigável, sem julgamentos.
 
 ### 6.6 Relatórios Simples
-- Total gasto
-- Total recebido
-- Saldo
-- Top categorias
-- Gráfico minimalista
+Totais e categorias com visual limpo.
 
 ---
 
 ## 7. Requisitos Não Funcionais
-
-### Acessibilidade
-- Contraste adequado (WCAG)
-- Botões grandes
-- Fonte ampliada opcional
-
-### Performance
-- OCR rápido
-- Chat responsivo
-
-### Segurança
-- Dados privados
-- Documentos podem ser apagados após leitura
+Acessibilidade, performance rápida, segurança.
 
 ---
 
 ## 8. Telas do MVP
-
-### 8.1 Tela de Chat
-- Entrada por texto
-- Botão para enviar fotos/PDFs
-- Mensagens rápidas sugeridas
-
-### 8.2 Tela de Revisão de Documento
-- Valores detectados
-- Confirmar / Editar / Cancelar
-
-### 8.3 Tela de Resumo
-- Totais do mês
-- Gráfico simples
-
-### 8.4 Tela de Metas
-- Criar e acompanhar metas
+Chat, revisão de documento, resumo, metas.
 
 ---
 
-## 9. Sucesso do MVP
-
-Métricas:
-- % de transações registradas sem erro
-- % de fotos/PDFs lidos corretamente
-- Retenção de 7 dias
-- Nota de usabilidade (0–10)
-- Engajamento semanal
+## 9. Métricas de Sucesso
+Acurácia, retenção, usabilidade.
 
 ---
 
-## 10. Declaração Oficial sobre Design Universal
-“O aplicativo será projetado com base em **Design Universal**, garantindo uso fácil e intuitivo por pessoas de todas as idades, níveis de escolaridade e experiências com tecnologia. A interface deve ser clara, acessível, com linguagem simples e diversas formas de interação, incluindo texto, fotos e documentos.”
+## 10. Declaração Oficial de Design Universal
+“A interface deve ser clara, acessível e útil para todas as idades, permitindo interação via texto, fotos e documentos.”
 
+🎥 Prints e Interações com o Lovable
 
-```
-Interaçãos com o Lovable:
+Prompt usado:
 
->Crie um app de finanças pessoais com base nesse PRD: {PRD}
->Crie uma tela de loguin segura com senha e usuário para ter maior controle
-> Sim (Crie uma tela de loguin segura com senha e usuário para ter maior controle)
+Crie um app de finanças pessoais com base nesse PRD: {PRD}
+Crie uma tela de login segura com senha e usuário
+Sim (confirmação)
 
-Resultado Final no Lovable: https://conversa-financas.lovable.app
+Resultado Final no Lovable:
+https://conversa-financas.lovable.app
 
 <img width="2560" height="1080" alt="image" src="https://github.com/user-attachments/assets/a087e47e-4d1a-4c83-9e1f-035532a0f088" />
+📱 Resumo do que o App de Finanças Pessoais faz
 
+O Minhas Finanças é um assistente financeiro baseado em conversa que organiza sua vida financeira de maneira simples e intuitiva.
 
+O app permite que você:
 
-# 📱 Resumo do que o App de Finanças Pessoais faz
+Registre gastos e receitas conversando, usando linguagem natural
 
-O **Minhas Finanças** é um assistente financeiro inteligente que te ajuda a organizar seu dinheiro de forma simples, rápida e sem complicação.  
-Tudo acontece através de uma conversa natural, como se você estivesse falando com alguém que realmente entende suas finanças.
+Envie fotos, notas, comprovantes e PDFs para leitura automática (OCR)
 
-### O app permite que você:
+Veja um resumo claro e visual do mês
 
-- **Registre gastos e receitas conversando**, usando frases do dia a dia  
-  - Ex.: “Gastei 50 no mercado”, “Recebi 300 do Pix”
-- **Envie fotos, notas, comprovantes ou PDFs**, e o app lê automaticamente os valores e datas
-- **Acompanhe um resumo claro** do mês, com total gasto, total recebido e saldo
-- **Crie metas financeiras acessíveis**, como “guardar 200 por mês” ou “limitar delivery”
-- **Veja suas categorias de gastos** de forma simples e visual
-- **Use botões rápidos** para acelerar ações comuns
-- Aproveite uma interface com **Design Universal**, acessível para pessoas de todas as idades e perfis
+Crie metas financeiras simples e acessíveis
 
-👉 Em poucas palavras:  
-**Você conversa, envia uma foto se quiser, e o app organiza suas finanças por você. Fácil, rápido e para todo mundo.**
+Classifique gastos automaticamente
 
-# 🧠 Reflexão Sobre o Processo
+Use botões rápidos para ações frequentes
 
-## ✅ O que funcionou bem?
+Aproveite uma interface baseada em Design Universal, acessível para todas as idades
 
-- A comunicação clara com a IA permitiu construir rapidamente um protótipo funcional.
-- O PRD estruturado serviu como guia e evitou pontos de confusão.
-- O Lovable interpretou bem os requisitos principais e criou uma interface simples e intuitiva.
-- O fluxo de conversa ficou natural e fácil de entender.
-- A adição de botões de ações rápidas tornou o uso mais prático.
-- A abordagem de Design Universal funcionou como base sólida para um app acessível.
+👉 Em resumo: você conversa ou envia uma foto, e o app organiza tudo por você.
 
----
+🧠 Reflexão Sobre o Processo
+✅ O que funcionou bem
 
-## ⚠️ O que não funcionou como o esperado?
+Comunicação clara com a IA
 
-- Algumas interpretações da IA exigiram retrabalho, especialmente em instruções mais complexas.
-- A leitura de documentos ainda não é perfeita e pode exigir ajustes manuais.
-- Nem todas as funcionalidades descritas no PRD foram implementadas exatamente como planejado.
-- Em certos momentos, foi preciso redizer instruções de forma mais objetiva para a IA compreender.
-- Algumas limitações do Lovable impediram automações mais avançadas no MVP.
+PRD bem estruturado guiando o desenvolvimento
 
----
+Interface simples e intuitiva
 
-## 🎓 O que aprendi sobre conversar com IAs?
+Fluxo de conversa natural
 
-- Quanto mais direto e específico for o comando, melhor o resultado.
-- Exemplos práticos ajudam muito a IA a entender a intenção.
-- A IA não preenche lacunas — tudo precisa ser explicado claramente.
-- Iterar, testar e refinar é essencial para chegar ao resultado desejado.
-- Conversar com IA é uma habilidade: quanto mais você pratica, mais entende como guiá-la.
-- Aprendi a pensar como “gerente de produto”, não só como usuário.
-- A IA é excelente para gerar, mas depende totalmente da sua comunicação para direcionar.
+Ações rápidas melhoraram a usabilidade
 
-👉 **Conclusão:** Guiar uma IA é como liderar um desenvolvedor — quando você comunica bem, ela constrói melhor.
+Design Universal facilitou decisões de UX
 
+⚠️ O que não funcionou como esperado
 
-## 💬 Conclusão
+Algumas interpretações exigiram retrabalho
 
-Vibe Coding é sobre clareza, curiosidade e criatividade, não sobre perfeição técnica. O verdadeiro objetivo aqui é aprender a pensar junto com a IA, transformando ideias em conceitos reais e enxergando a tecnologia como uma extensão do seu raciocínio criativo. Cada interação é um experimento, quanto mais clara for sua intenção, mais surpreendente será o resultado.
+OCR pode exigir revisões
+
+Nem tudo do PRD foi implementado automaticamente
+
+Lovable precisa de instruções objetivas
+
+Limitações para funções mais avançadas
+
+🎓 O que aprendi sobre conversar com IAs
+
+Quanto mais claro e direto, melhor o resultado
+
+Exemplos são essenciais
+
+A IA não preenche lacunas — tudo precisa estar explícito
+
+Iterar é parte do processo
+
+Conversar com IA é uma habilidade que evolui com prática
+
+Liderar a IA é como liderar um desenvolvedor: comunicação = resultado
+
+👉 Conclusão: com uma boa conversa, a IA vira sua parceira de criação.
+
+💬 Conclusão
+
+Vibe Coding é sobre intenção, clareza e criatividade.
+A humanidade da conversa direciona a tecnologia — e não o contrário.
+Quanto mais clara a intenção, mais surpreendente o resultado final.
