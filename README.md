@@ -1,18 +1,21 @@
-💸 App de Organização de Finanças Pessoais
-Para pessoas de todas as idades, com leitura de extratos e comprovantes usando Vibe Coding
+# 💸 App de Organização de Finanças Pessoais
+
+**Para pessoas de todas as idades, com leitura de extratos e comprovantes usando Vibe Coding**
 
 Aprenda a criar soluções com IA de forma criativa, guiando ferramentas como Copilot e Lovable com comunicação simples e natural.
 O foco é construir um App de Organização de Finanças Pessoais e, ao mesmo tempo, aprender o jeito Vibe de programar com IA.
 
-✨ O que é Vibe Coding
+## ✨ O que é Vibe Coding
 
 Vibe Coding é desenvolver software por meio de conversas naturais, sem precisar escrever código linha a linha.
-Você guia a IA com clareza, intenção e contexto — e ela transforma sua ideia em solução.
+Você guia a IA com clareza, intenção e contexto, e ela transforma sua ideia em solução.
 
-Você mostra a vibe, a IA mostra o caminho.
+> Você mostra a vibe, a IA mostra o caminho.
 
-📘 PRD Completo (Prompt Final)
-# PRD – App de Finanças por Conversa com Design Universal
+## 📘 PRD Completo (Prompt Final)
+
+```markdown
+# PRD: App de Finanças por Conversa com Design Universal
 
 ## 1. Visão Geral
 Aplicativo de organização financeira que funciona por conversa e leitura de imagens/PDFs.  
@@ -111,86 +114,68 @@ Acurácia, retenção, usabilidade.
 
 ## 10. Declaração Oficial de Design Universal
 “A interface deve ser clara, acessível e útil para todas as idades, permitindo interação via texto, fotos e documentos.”
+```
 
-🎥 Prints e Interações com o Lovable
+## 🎥 Prints e Interações com o Lovable
 
-Prompt usado:
+**Prompts usados:**
 
-Crie um app de finanças pessoais com base nesse PRD: {PRD}
-Crie uma tela de login segura com senha e usuário
-Sim (confirmação)
+1. `Crie um app de finanças pessoais com base nesse PRD: {PRD}`
+2. `Crie uma tela de login segura com senha e usuário`
+3. `Sim` (confirmação)
 
-Resultado Final no Lovable:
-https://conversa-financas.lovable.app
+**Resultado Final no Lovable:** https://conversa-financas.lovable.app
 
 <img width="2560" height="1080" alt="image" src="https://github.com/user-attachments/assets/a087e47e-4d1a-4c83-9e1f-035532a0f088" />
-📱 Resumo do que o App de Finanças Pessoais faz
+
+## 📱 Resumo do que o App de Finanças Pessoais faz
 
 O Minhas Finanças é um assistente financeiro baseado em conversa que organiza sua vida financeira de maneira simples e intuitiva.
 
 O app permite que você:
 
-Registre gastos e receitas conversando, usando linguagem natural
-
-Envie fotos, notas, comprovantes e PDFs para leitura automática (OCR)
-
-Veja um resumo claro e visual do mês
-
-Crie metas financeiras simples e acessíveis
-
-Classifique gastos automaticamente
-
-Use botões rápidos para ações frequentes
-
-Aproveite uma interface baseada em Design Universal, acessível para todas as idades
+- Registre gastos e receitas conversando, usando linguagem natural
+- Envie fotos, notas, comprovantes e PDFs para leitura automática (OCR)
+- Veja um resumo claro e visual do mês
+- Crie metas financeiras simples e acessíveis
+- Classifique gastos automaticamente
+- Use botões rápidos para ações frequentes
+- Aproveite uma interface baseada em Design Universal, acessível para todas as idades
 
 👉 Em resumo: você conversa ou envia uma foto, e o app organiza tudo por você.
 
-🧠 Reflexão Sobre o Processo
-✅ O que funcionou bem
+## 🧠 Reflexão Sobre o Processo
 
-Comunicação clara com a IA
+### ✅ O que funcionou bem
 
-PRD bem estruturado guiando o desenvolvimento
+- Comunicação clara com a IA
+- PRD bem estruturado guiando o desenvolvimento
+- Interface simples e intuitiva
+- Fluxo de conversa natural
+- Ações rápidas melhoraram a usabilidade
+- Design Universal facilitou decisões de UX
 
-Interface simples e intuitiva
+### ⚠️ O que não funcionou como esperado
 
-Fluxo de conversa natural
+- Algumas interpretações exigiram retrabalho
+- OCR pode exigir revisões
+- Nem tudo do PRD foi implementado automaticamente
+- Lovable precisa de instruções objetivas
+- Limitações para funções mais avançadas
 
-Ações rápidas melhoraram a usabilidade
+### 🎓 O que aprendi sobre conversar com IAs
 
-Design Universal facilitou decisões de UX
-
-⚠️ O que não funcionou como esperado
-
-Algumas interpretações exigiram retrabalho
-
-OCR pode exigir revisões
-
-Nem tudo do PRD foi implementado automaticamente
-
-Lovable precisa de instruções objetivas
-
-Limitações para funções mais avançadas
-
-🎓 O que aprendi sobre conversar com IAs
-
-Quanto mais claro e direto, melhor o resultado
-
-Exemplos são essenciais
-
-A IA não preenche lacunas — tudo precisa estar explícito
-
-Iterar é parte do processo
-
-Conversar com IA é uma habilidade que evolui com prática
-
-Liderar a IA é como liderar um desenvolvedor: comunicação = resultado
+- Quanto mais claro e direto, melhor o resultado
+- Exemplos são essenciais
+- A IA não preenche lacunas: tudo precisa estar explícito
+- Iterar é parte do processo
+- Conversar com IA é uma habilidade que evolui com prática
+- Liderar a IA é como liderar um desenvolvedor: comunicação = resultado
 
 👉 Conclusão: com uma boa conversa, a IA vira sua parceira de criação.
 
-💬 Conclusão
+## 💬 Conclusão
 
 Vibe Coding é sobre intenção, clareza e criatividade.
-A humanidade da conversa direciona a tecnologia — e não o contrário.
+A humanidade da conversa direciona a tecnologia, e não o contrário.
 Quanto mais clara a intenção, mais surpreendente o resultado final.
